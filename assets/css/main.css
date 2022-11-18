@@ -24,10 +24,30 @@
 	text-align: center;
 
 } */
+
+.error{
+	position: absolute;
+	top:-40px;
+	width:100%;
+	height:30px;
+}
+.error ul {
+	background-color:rgba(238, 80, 80, 0.788);
+	border-radius:5px;
+	width:100%;
+}
+
+.error ul li{
+	list-style:none;
+	color:white;
+	font-size:11px;
+	box-sizing: border-box;
+	padding:5px 6px;
+}
 /*se posisiona el icono dentro del .form y se le da un z-index para que este por encima del form*/
 .logo1 {
 	position:relative;
-	top:0px;
+	top:-30px;
 	z-index:2;
 	margin:0 auto;
 }
@@ -83,15 +103,7 @@ para poder ubicarlos amas abajo del contenedor .form y darle espacio al logo*/
 .form button:hover,.form button:active,.form button:focus {
   background: #04a0cf;
 }
-.form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
-}
-.form .message a {
-  color: #00b7ff;
-  text-decoration: none;
-}
+
 .form .register-form {
   display: none;
 }
@@ -302,7 +314,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -4058,3 +4069,18 @@ input, select, textarea {
 			}
 
 		}
+
+.menssage {
+	margin:0;
+}
+.menssage a{
+	color: #b3b3b3;
+	font-size: 12px;
+	margin:0;
+	text-decoration: none;
+}
+.register a {
+	color: #00b7ff;
+	text-decoration: none;
+	font-size: 10px;
+}
