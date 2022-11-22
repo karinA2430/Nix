@@ -1,4 +1,5 @@
 <?php
+/*
 error_reporting(E_ALL ^ E_NOTICE);
 session_start();
 
@@ -61,5 +62,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 }
 
 
-require 'register.view.php';
+require 'register.view.php'; 
 ?>

@@ -6,7 +6,7 @@ $ruta = $local;
 
 $bd_config = array (
     'host' => '127.0.0.1',
-    'basedatos' => 'usuarios',
+    'basedatos' => 'bdnix',
     'usuario' => 'root',
     'pass' => ''
 );

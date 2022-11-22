@@ -1,4 +1,5 @@
 <?php
+/*
 error_reporting(E_ALL ^ E_NOTICE);
 session_start();
 
@@ -62,4 +63,4 @@ if (isset($_SESSION['usuario'])){
 <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
 <script src="js/validar_contacto.js"></script>
 </body>
-</html>
+</html>*/

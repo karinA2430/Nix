@@ -5,8 +5,8 @@ $local = "https://localhost/nix/";
 $ruta = $local;
 
 $bd_config = array (
-    'host' => '127.0.0.1',
-    'basedatos' => 'usuarios',
+    'host' => 'localhost',
+    'basedatos' => 'bdnix',
     'usuario' => 'root',
     'pass' => ''
 );
